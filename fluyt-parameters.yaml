@@ -1,6 +1,26 @@
 - name: name
+  label: Name
   type: string
+  required: true
 - name: groupId
+  label: Group ID
   type: string
+  required: true
 - name: artifactId
+  label: Artifact ID
   type: string
+  required: true
+- name: replicas
+  label: Num. réplicas
+  type: number
+  required: true
+  default: 1
+- name: javaVersion
+  label: Versão do java
+  type: string
+  required: true
+  options:
+    - label: Java 11
+      value: 11
+    - label: Java 17
+      value: 17
