@@ -1,0 +1,6 @@
+- name: name
+  type: string
+- name: groupId
+  type: string
+- name: artifactId
+  type: string
