@@ -11,7 +11,7 @@
   label: Num. réplicas
   type: number
   required: false
-  default: 1
+  value: 1
 - name: javaVersion
   label: Versão do java
   type: string
