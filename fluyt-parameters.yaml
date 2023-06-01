@@ -1,6 +1,9 @@
 - name: name
   label: Name
   type: string
+- name: package
+  label: Package
+  type: string
 - name: groupId
   label: Group ID
   type: string
