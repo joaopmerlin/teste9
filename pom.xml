@@ -8,13 +8,13 @@
         <version>3.1.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>{groupId}</groupId>
-    <artifactId>{artifactId}</artifactId>
+    <groupId>teste</groupId>
+    <artifactId>teste</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-template-test</name>
     <description>spring-boot-template-test</description>
     <properties>
-        <java.version>{javaVersion}</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
